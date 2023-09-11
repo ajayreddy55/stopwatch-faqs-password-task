@@ -1,0 +1,69 @@
+.stopwatch-bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .stopwatch-bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png");
+  }
+}
+
+.stopwatch-main-container {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+}
+
+.stopwatch-heading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 11px;
+  margin-bottom: 16px;
+}
+
+.stopwatch-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 350px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stopwatch-image {
+  width: 41px;
+  margin-right: 7px;
+}
+
+.stopwatch-timer-heading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.stopwatch-timer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  color: #333333;
+  margin-top: 11px;
+  margin-bottom: 19px;
+  text-align: center;
+}
