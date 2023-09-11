@@ -1,0 +1,105 @@
+.password-bg-container {
+  background-color: #9ba9eb;
+  padding: 22px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.password-main-container {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+}
+
+.passwords-app-logo {
+  width: 210px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.passwords-inputs-image-main-card {
+  background-color: #c3caea;
+  width: 100%;
+  padding: 25px;
+  min-height: 350px;
+  border-radius: 12px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.passwords-inputs-row-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .passwords-inputs-row-card {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+}
+
+.passwords-inputs-card {
+  background-color: #5763a5;
+  width: 100%;
+  padding: 20px;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.passwords-add-inputs-heading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #f8fafc;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+
+.passwords-input-container {
+  background-color: #ffffff;
+  height: 45px;
+  border-radius: 9px;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+
+.passwords-input-website-logo-container {
+  width: 18%;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.passwords-input-website-logo {
+  width: 25px;
+}
+
+.passwords-input-webiste-element {
+  width: 82%;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  border-left: 2px solid #454f84;
+  outline: none;
+  padding: 8px;
+  background-color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
